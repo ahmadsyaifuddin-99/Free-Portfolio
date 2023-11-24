@@ -49,15 +49,15 @@ window.PorfolioConfig = {
     mobileNo: '+6285849910396',
     links: [{
         name: 'GitHub',
-        link: 'https://github.com/jofftiquez'
+        link: 'https://github.com/ahmadsyaifuddin-99'
       },
       {
-        name: 'Facebook',
-        link: 'https://facebook.com/jofftiquez'
+        name: 'Instagram',
+        link: 'https://www.instagram.com/real.ahmadsyaifuddin/'
       },
       {
-        name: 'Twitter',
-        link: 'https://twitter.com/jrtiquez'
+        name: 'Tiktok',
+        link: 'https://www.tiktok.com/@ahmadsyai004?lang=id-ID'
       }
     ]
   }
