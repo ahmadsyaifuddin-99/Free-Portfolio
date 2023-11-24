@@ -1,9 +1,8 @@
 window.PorfolioConfig = {
-  name: 'John Doe',
+  name: 'Ahmad Syaifuddin',
   jobTitle: 'Full-stack Web Developer',
-  jobDescription: 'Sit quis in tempor quis. Nisi ex exercitation in irure. Reprehenderit sint aliqua et dolore enim laboris dolore exercitation magna aliqua ex ad.',
-  skills: [
-    {
+  jobDescription: 'I want to become a Cyber Security. Nisi ex exercitation in irure. Reprehenderit sint aliqua et dolore enim laboris dolore exercitation magna aliqua ex ad.',
+  skills: [{
       name: 'JavaScript',
       description: 'Reprehenderit mollit id ad veniam.'
     },
@@ -16,8 +15,7 @@ window.PorfolioConfig = {
       description: 'Elit tempor mollit consectetur laborum nostrud qui in.'
     }
   ],
-  works: [
-    {
+  works: [{
       name: 'Vue Stripe Checkout',
       link: 'https://jofftiquez.github.io/vue-stripe-checkout',
       description: 'Mollit dolor tempor adipisicing non pariatur in tempor cillum do. In officia ullamco laborum ullamco voluptate. Laboris sunt quis enim Lorem laboris aliquip duis non magna excepteur voluptate. Pariatur velit aliquip officia nulla anim reprehenderit deserunt. Sint nostrud ipsum do aliquip.'
@@ -33,13 +31,12 @@ window.PorfolioConfig = {
       description: 'Incididunt non cupidatat deserunt ut commodo qui non do Lorem. Qui aute minim enim sit magna est consectetur incididunt. Ex est cupidatat tempor pariatur deserunt labore tempor minim laboris magna ipsum minim ea ea. Consectetur do anim laboris nulla nisi veniam sint qui.'
     }
   ],
-  hobbies: [
-    {
-      name: 'Rock Climbing',
+  hobbies: [{
+      name: 'Coding',
       description: 'Occaecat ipsum dolor ea ad ut irure do proident excepteur consectetur duis eu culpa velit.'
     },
     {
-      name: 'Surfing',
+      name: 'Playing Games',
       description: 'Laboris occaecat adipisicing culpa duis aute ea excepteur quis eiusmod mollit est pariatur.'
     },
     {
@@ -48,11 +45,9 @@ window.PorfolioConfig = {
     }
   ],
   contacts: {
-    email: 'john.doe@gmail.com',
-    mobileNo: '+639171234567',
-    phoneNo: '+12 345 6789',
-    links: [
-      {
+    email: 'ahmadsyai598@gmail.com',
+    mobileNo: '+6285849910396',
+    links: [{
         name: 'GitHub',
         link: 'https://github.com/jofftiquez'
       },
