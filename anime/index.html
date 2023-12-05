@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta property="og:title" content="OSSPH Freefolio - Anime Template" />
-  <meta property="og:description" content="100% FREE Professional Portfolio Templates - Anime Template" />
+  <meta property="og:title" content="Anime Web" />
+  <meta property="og:description" content="Anime Web" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://freefolio.web.app/anime" />
   <meta property="og:image" content="https://i.postimg.cc/HnWKRnDB/anime.png" />
@@ -12,9 +13,9 @@
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:image:alt" content="OSSPH Freefolio">
-  <meta name="twitter:title" content="OSSPH Freefolio - Anime Template" />
-  <meta name="twitter:description" content="100% FREE Professional Portfolio Templates - Anime Template" />
+  <meta name="twitter:image:alt" content="Anime Web">
+  <meta name="twitter:title" content="Anime Web" />
+  <meta name="twitter:description" content="Anime Web" />
 
   <!-- Icon -->
   <link type="image/png" sizes="16x16" rel="icon" href="assets/anime.png">
@@ -29,12 +30,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Kosugi+Maru&display=swap" rel="stylesheet">
 
-  <title>Anime a Freefolio template by OSSPH</title>
+  <title>Asai - Anime Web</title>
 </head>
+
 <body>
   <!-- Start of Header -->
   <header>
-    <a href="#" class="logo">Ani<span>me</span></a>
+    <a href="#" class="logo ungu">Ani<span>me</span></a>
     <div class="bx bx-menu" id="menu-icon"></div>
 
     <ul class="navbar">
@@ -49,10 +51,12 @@
 
   <!-- Start of Home Section -->
   <section class="home" id="home">
-    <div class="home-text">
+    <div class="home-text ungu">
       <h5>Hello, I'm</h5>
-      <h1>Max Turner</h1>
-      <h6>a passionate <span>Software Developer</span> with a strong enthusiasm for creating innovative and efficient solutions.</h6>
+      <h1>Ahmad Syaifuddin</h1>
+      <h6>a passionate <span>Front End Developer</span> with a strong enthusiasm for creating innovative and
+        efficient
+        solutions.</h6>
       <a href="#" class="btn">Download CV</a>
     </div>
 
@@ -70,8 +74,9 @@
 
     <div class="about-text">
       <h3>About Me</h3>
-      <h2>I'm a Software Developer.</h2>
-      <p>A creative and driven individual with a love for technology and a desire to make a positive impact through innovative web solutions.</p>
+      <h2>I'm a Front End Developer.</h2>
+      <p>A creative and driven individual with a love for technology and a desire to make a positive impact through
+        innovative web solutions.</p>
 
       <div class="main-btn">
         <a href="#" class="btn">Download CV</a>
@@ -188,12 +193,19 @@
 
   <!-- Start of Footer Section -->
   <div class="footer">
-    <p>Template made with ❤️ by <a href="https://github.com/coder-ralph" target="_blank">Ralph Rosael</a></p>
+    <p>Copyright <span id="year"></span> made with ❤️ by Ahmad Syaifuddin</p>
   </div>
   <!-- End of Footer Section -->
+
+
+  <!-- Get year update dynamic Footer -->
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
 
   <!-- JS Script Link -->
   <script src="assets/script.js"></script>
 
 </body>
+
 </html>

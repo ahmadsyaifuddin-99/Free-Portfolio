@@ -1,8 +1,9 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Kosugi Maru', sans-serif; /* anime font */
+  /* anime font */
+  font-family: 'Kosugi Maru', sans-serif;
   text-decoration: none;
   list-style: none;
   scroll-behavior: smooth;
@@ -14,7 +15,7 @@
   --main-color: #9370DB;
   --2nd-main-color: #ffffffcc;
   --text-color: #fff;
-  --big-font: 5rem;
+  --big-font: 3rem;
   --h2-font: 1.9rem;
   --p-font: 1rem;
 }
@@ -46,7 +47,7 @@ header {
   font-weight: 600;
 }
 
-span {
+.ungu span {
   color: var(--main-color)
 }
 
@@ -86,7 +87,7 @@ section {
   align-items: center;
   position: relative;
   height: 100vh;
-  width: 100%;  
+  width: 100%;
 }
 
 .home-img img {
@@ -209,7 +210,7 @@ section {
   transition: all .40s;
 }
 
-.row i{
+.row i {
   color: var(--main-color);
   font-size: 3rem;
   margin-bottom: 20px;
@@ -341,7 +342,7 @@ section {
   width: 550px;
 }
 
-form input, 
+form input,
 form textarea {
   width: 100%;
   padding: 20px;
@@ -353,7 +354,7 @@ form textarea {
   border-radius: 5px;
 }
 
-form input::placeholder, 
+form input::placeholder,
 form textarea::placeholder {
   color: var(--2nd-main-color);
 }
@@ -400,9 +401,11 @@ form .send-btn:hover {
   header {
     padding: 18px 3%;
   }
+
   #menu-icon {
     display: block;
   }
+
   .navbar {
     background: #0b0b13;
     position: absolute;
@@ -415,12 +418,14 @@ form .send-btn:hover {
     text-align: left;
     transition: 0.2s ease;
   }
+
   .navbar a {
     display: block;
     margin: 1rem;
     padding: 1rem;
     border-left: 2px solid var(--main-color);
   }
+
   .navbar.active {
     top: 100%;
   }
@@ -433,16 +438,20 @@ form .send-btn:hover {
     text-align: center;
     padding: 50px 3%;
   }
+
   .home-img img {
     width: 100%;
     height: auto;
   }
+
   .home-text h5 {
     font-size: 20px;
   }
+
   .home-text h1 {
     font-size: 2.5rem;
   }
+
   .home-text h6 {
     font-size: 14px;
   }
@@ -452,35 +461,45 @@ form .send-btn:hover {
     text-align: center;
     padding: 50px 3%;
   }
+
   .about-img-container img {
     width: 100%;
   }
+
   .about-text h3 {
     font-size: 22px;
   }
+
   .about-text h2 {
     font-size: 1.6rem;
   }
+
   .about-text p {
     font-size: 0.9rem;
   }
+
   .resume-content {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 2rem;
     margin-top: 4.4rem;
   }
+
   .box h4 {
     font-size: 1rem;
   }
+
   .box p {
     font-size: 0.8rem;
   }
+
   .box h5 {
     font-size: 12px;
   }
+
   .contact-form form {
     width: 100%;
   }
+
   .service-content {
     grid-template-columns: 1fr;
   }
@@ -489,4 +508,3 @@ form .send-btn:hover {
     padding: 30px 20px;
   }
 }
-
